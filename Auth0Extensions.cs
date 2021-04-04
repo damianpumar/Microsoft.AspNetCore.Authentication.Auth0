@@ -30,7 +30,13 @@ namespace Microsoft.AspNetCore.Authentication.Auth0
                };
            });
         }
+    }
+}
 
+namespace System.Security.Claims
+{
+    public static class ClaimsPrincipalExtensions
+    {
         public static string GetId(this ClaimsPrincipal principal)
         {
             if (principal != null)
