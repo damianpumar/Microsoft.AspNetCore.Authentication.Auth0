@@ -1,4 +1,4 @@
-# In your startup.cs
+## :pencil: In your startup.cs
 
 ```
 public void ConfigureServices(IServiceCollection services)
@@ -7,13 +7,13 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
-# In your controller use this.
+## :pick: In your controller use this.
 
 ```
     this.HttpContext.User.GetId();
 ```
 
-# In your setting we need auth0 information like this
+## :mag: In your setting we need auth0 information like this
 
 ```
 "Auth0": {
